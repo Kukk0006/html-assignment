@@ -4,40 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css">
+  <title >Home</title>
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-  <header><img src="images/namePlate.png" alt="Cassie Kukkonen"></header>
+  <header><img src="images/namePlate.png" alt="Cassie Kukkonen"> 
+    <!--<h1 class="site-title"> Home Page</h1>-->
+  </header>
   <nav>
     <ul>
-<li> 
-Home</li>
-<li> 
-  <a href="notes.html">Notes</a></li>
-  <li>
-    <a href="gallery.html"> Gallery</a>
-  </li>
-</ul>
+      <li> 
+        <a class="active" href="index.html">Home</a></li>
+      <li> 
+        <a href="notes.html">Notes</a></li>
+      <li>
+        <a href="gallery.html"> Gallery</a></li>
+    </ul>
   </nav>
+<main>
   <article><h2 class="h2">About Me</h2>
-    <img src="images/me.jpg" alt="Selfie" width="300">
+    <!--Week 5 CSS addition id tag to image-->
+    <img id="my-image" src="images/me.jpg" alt="Selfie" width="300">
     <p> <!-- 2 paragraphs est 50 words each-->
       I'm from Thornton, Colorado, and I have been a resident in Ontario for 8 years now.  I've lived in Markham and Peterborough. I have been in Ottawa since the start of 2019. I don't plan on staying in Ottawa in the long term, but don't have any idea where I want to go next.  I have 2 years <em> at least</em> to figure that out.  
     </p>
     <p>
        My hobbies include:
     </p> 
-       <ul>
-        <li>photography</li>
-        <li>photo editing</li>
-        <li>sewing</li>
-        <li>miniature painting</li>
-        <li>playing guitar</li>
-        <li>tablet weaving</li>
-        <li>foam craft</li>
-        <li>and exploring more crafty hobbies</li>
+       <ul class="hobbies">
+          <li>photography</li>
+          <li>photo editing</li>
+         <li>sewing</li>
+         <li>miniature painting</li>
+         <li>playing guitar</li>
+          <li>tablet weaving</li>
+          <li>foam craft</li>
+          <li>and exploring more crafty hobbies</li>
         </ul>  
       
       <p>I grew up with a creative family.  My mom taught me to sew and explore historical costuming. While my dad did some historical reenactment through the <abbr title="Society For Creative Anachronism">SCA</abbr> and he was in a many bands while I was growing up.
@@ -45,6 +48,7 @@ Home</li>
       <blockquote>“The privilege of a lifetime is to become who you truly are.”-<cite>Carl Jung</cite></blockquote>
     
   </article>
+</main>
 <footer> Copyright 2022 Rose Picture by KAVOWO <a href="https://pixabay.com/photos/rose-flower-pink-rose-rose-bloom-3585489" target="blank"> Pixabay.com </a>
 </footer>
 </body>
